@@ -12,8 +12,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'listado',
-    loadChildren: () => import('./listado/listado.module').then( m => m.ListadoPageModule)
+    path: 'mapa',
+    loadChildren: () => import('./mapa/mapa.module').then( m => m.MapaPageModule)
   },
   {
     path: 'ayuda',

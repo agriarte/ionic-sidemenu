@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  imageSrc1 = '../assets/img/plaza_real.jpg';
+  alt1 = 'plaza real';
+
+
+
   constructor() {}
 
 }
